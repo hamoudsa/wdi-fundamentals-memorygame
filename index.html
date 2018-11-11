@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Memory Card Game </title>
+	<link href="https://fonts.googleapis.com/css?family=Droid+Serif|Raleway:400,500,600,700" rel="stylesheet">
+
+
+
+	<link rel="stylesheet" href="css/bootstrap-arabic-theme.min.css" />
+	<link rel="stylesheet" href="css/bootstrap-arabic.min.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+
+
+</head>
+
+<body id="page-top" data-spy="scroll" >	
+
+	<header>
+		<div class="top-nav">
+			<div class="container-fluid">
+				<div class="text-center">
+					<h1><a href="index.html">MEMORY GAME</a></h1>
+				</div>
+			</div>
+		</div>
+		<div class="bottom-nav">
+			<div class="text-center">
+				<a href="#">INSTRUCTOINS</a>
+				<a href="#">GAME</a>
+			</div>
+		</div>
+	</header>
+
+	<div class="contnet">
+		<div class="container-fluid">
+			<div class="instructions">
+				<h1 class="text-center">INSTRUCTOINS</h1><br>
+
+				<p class="text-center">Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply<br> Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are<br> flipped face up over each turn. The object of the game is to turn over pairs of matching cards.</p><br>
+			</div>
+			<div class="all-cards text-center">
+				<div class="one-card">
+					<div class="card"  title="king-of-diamonds">
+						<div class="front">
+							<img src="img/back.png">
+						</div>
+						<div class="back">
+							<img src="img/king-of-diamonds.png">
+						</div>
+					</div>
+				</div>
+				<div class="one-card">
+					<div class="card "  title="king-of-hearts">
+						<div class="front">
+							<img src="img/back.png">
+						</div>
+						<div class="back">
+							<img src="img/king-of-hearts.png">
+						</div>
+					</div>
+				</div>
+				<div class="one-card">
+					<div class="card" title="queen-of-diamonds">
+						<div class="front">
+							<img src="img/back.png">
+						</div>
+						<div class="back">
+							<img src="img/queen-of-diamonds.png">
+						</div>
+					</div>
+				</div>
+				<div class="one-card">
+					<div class="card" title="queen-of-hearts">
+						<div class="front">
+							<img src="img/back.png">
+						</div>
+						<div class="back">
+							<img src="img/queen-of-hearts.png">
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+
+	<footer>
+		<p class="text-center">CREATED WITH <i class="fa fa-heart"></i> BY <a href="#">GA</a></p>
+	</footer>
+
+
+
+	<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+	<script src="js/bootstrap-arabic.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/main.js"></script>
+
+	<script type="text/javascript">
+
+		$(".all-cards").each(function(){
+			var title;
+			$(".card").click(function(){
+				$(".card").removeClass('flipped');
+				$(this).toggleClass('flipped');
+				title = $(this).attr('title');
+			//alert("User flipped " + title);
+			console.log("User flipped " + title);
+		});
+		});
+
+		
+
+
+	</script>
+
+
+</body>
+</html>
