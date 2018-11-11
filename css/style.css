@@ -1,0 +1,247 @@
+/*
+ * Droid Arabic Kufi (Arabic) http://www.google.com/fonts/earlyaccess
+ */
+ @font-face {
+  font-family: 'Droid Arabic Kufi';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/kufi/DroidKufi-Regular.eot);
+  src: url(../fonts/kufi/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/kufi/DroidKufi-Regular.woff2) format('woff2'),
+  url(../fonts/kufi/DroidKufi-Regular.woff) format('woff'),
+  url(../fonts/kufi/DroidKufi-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Droid Arabic Kufi';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/kufi/DroidKufi-Bold.eot);
+  src: url(../fonts/kufi/DroidKufi-Bold.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/kufi/DroidKufi-Bold.woff2) format('woff2'),
+  url(../fonts/kufi/DroidKufi-Bold.woff) format('woff'),
+  url(../fonts/kufi/DroidKufi-Bold.ttf) format('truetype');
+}
+@font-face{
+  font-family:'GEFLOW';
+  src:url(../fonts/geflow/GE_FLOW_BOLD.eot);
+  src:url(../fonts/geflow/GE_FLOW_BOLD.eot?#iefix) format("embedded-opentype"),
+  url(../fonts/geflow/GE_FLOW_BOLD.woff) format("woff"),url(font/GE_FLOW_BOLD.ttf) format("truetype"),
+  url(../fonts/geflow/GE_FLOW_BOLD.svg#GE_FLOW_BOLD) format("svg");
+  font-weight:400!important;
+  font-style:normal
+}
+
+
+/*Regular*/
+@font-face {
+  font-family: 'STV Regular';
+  src: url('../fonts/stv_font/Regular/STV Regular.eot');
+  src: url('../fonts/stv_font/Regular/STV Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/stv_font/Regular/STV Regular.woff2') format('woff2'),
+  url('../fonts/stv_font/Regular/STV.woff') format('woff'),
+  url('../fonts/stv_font/Regular/STV.svg#STV') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*Bold*/
+@font-face {
+  font-family: 'STV Bold';
+  src: url('../fonts/stv_font/Bold/STV-Bold.eot');
+  src: url('../fonts/stv_font/Bold/STV-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/stv_font/Bold/STV-Bold.woff2') format('woff2'),
+  url('../fonts/stv_font/Bold/STV-Bold.woff') format('woff'),
+  url('../fonts/stv_font/Bold/STV-Bold.svg#STV') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+/*Light*/
+@font-face {
+  font-family: 'STV light';
+  src: url('../fonts/stv_font/Light/STV-Light.eot');
+  src: url('../fonts/stv_font/Light/STV-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/stv_font/Light/STV-Light.woff2') format('woff2'),
+  url('../fonts/stv_font/Light/STV-Light.woff') format('woff'),
+  url('../fonts/stv_font/Light/STV-Light.svg#STV') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+h1{font-size: 25px;}h2{font-size: 24px;}h3{font-size: 22px;}
+h4{font-size: 20px;}h5{font-size: 18px;}h6{font-size: 16px;}
+p{font-size: 14px;}
+a{font-size: 14px;text-decoration: none !important;color: #79a700;}
+body{
+ color: #000;
+ overflow-x: hidden;
+}
+
+h1 {
+font-family: "Raleway", sans-serif;
+font-weight: 400;
+}
+
+p {
+font-family: "Droid Serif", serif;
+}
+
+
+
+/* Let's get this party started */
+.flexcroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.flexcroll::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  /*  -webkit-border-radius: 10px;
+  border-radius: 10px;*/
+}
+
+/* Handle */
+.flexcroll::-webkit-scrollbar-thumb {
+   /* -webkit-border-radius: 10px;
+   border-radius: 10px;*/
+   background: rgba(0,191,255,0.8); 
+   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+ }
+ /* start bottom button*/
+
+
+/**********************/
+.text-white{
+  color: #fff;
+}
+.gray-color{
+  color:#484848;
+}
+.green-color{
+    color:green;
+
+}
+.background-white{
+  background-color: #fff;
+}
+.no-padding{
+  padding: 0;
+}
+.padding-4{
+padding-left: 4px;
+padding-right: 4px;
+}
+
+
+.container-fluid {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+/**************************************/
+/**/
+.top-nav{
+padding: 20px 0px;
+  background-color: #de6845;
+}
+.bottom-nav{
+  padding: 10px 0;
+  background-color: #49a3b0;
+}
+
+.top-nav a, .bottom-nav a{
+  color:#fff;
+}
+.top-nav h1 a{
+  font-size: 28px;
+}
+.top-nav h1{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.bottom-nav a{
+  margin-right: 20px;
+}
+
+
+
+.instructions p{
+  line-height: 26px;
+  font-size: 18px;
+}
+
+/****************/
+.one-card {
+  display: inline-block;
+    width: 175px;
+    height: 279px;
+    position: relative;
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -o-perspective: 800px;
+    perspective: 800px;
+    margin-left: 20px;
+}
+.card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-transition: -webkit-transform 1s;
+    -moz-transition: -moz-transform 1s;
+    -o-transition: -o-transform 1s;
+    transition: transform 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 50% 50%;
+}
+.card div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    /*line-height: 279px;*/
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 140px;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.card .front {
+}
+.front img{
+  width: 100%;
+}
+.card .back {
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+.back img{
+  width: 100%;
+}
+.card.flipped {
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+
+
+/***************/
+footer {
+    background-color: #142d3e;
+    color: #fff;
+    padding: 7px 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p{
+  margin: 0;
+}
+footer p a{
+color: #de6845;
+  }
